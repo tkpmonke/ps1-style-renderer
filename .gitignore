@@ -1,0 +1,16 @@
+# exclude build time directories
+bin/
+!bin/*.scene
+!bin/*.glb
+!bin/*.glsl
+obj/
+
+# exclude build files
+compile_commands.json
+./**Makefile
+./**.make
+Makefile
+*.make
+
+# exclude clangd cache folder
+.cache/
