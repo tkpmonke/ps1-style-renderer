@@ -2,7 +2,7 @@
 !bin/*.scene
 !bin/*.glb
 !bin/*.glsl
-bin/
+bin/**
 
 obj/
 
