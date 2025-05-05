@@ -1,8 +1,6 @@
 #include "rigidbody.h"
 #include "scene.h"
 
-#include <ode/ode.h>
-
 void simulate_rigidbody(rigidbody_t* rb, void* vscene, float delta_time) {
 	if (rb->is_static) return;
 
