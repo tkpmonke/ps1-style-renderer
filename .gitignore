@@ -1,8 +1,9 @@
 # exclude build time directories
-bin/
 !bin/*.scene
 !bin/*.glb
 !bin/*.glsl
+bin/
+
 obj/
 
 # exclude build files
